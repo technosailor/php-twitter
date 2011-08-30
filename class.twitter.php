@@ -1,11 +1,10 @@
 <?php
 /**
- * Wrapper class around the Twitter API for PHP
+ * Wrapper class around the Twitter API for PHP - OUTDATED LIBRARY, DO NOT USE
  * Based on the class originally developed by David Billingham
  * and accessible at http://twitter.slawcup.com/twitter.class.phps
- * @author David Billingham <david@slawcup.com>
+ * @author David Billingham <email@redacted>
  * @author Aaron Brazell <aaron@technosailor.com>
- * @author Keith Casey <caseysoftware@gmail.com>
  * @version 1.0
  * @package php-twitter
  * @subpackage classes

@@ -1,0 +1,3 @@
+This is a very old PHP library that is now outdated. It's based on the original (v1) implementation on the Twitter API and uses HTTP authentication. The Twitter aPI no longer allows HTTP Auth, only oAuth.
+
+So while portions of this library are still useful, it's best used as an opportunity to fork and build to the current API specs using this as a baseline.

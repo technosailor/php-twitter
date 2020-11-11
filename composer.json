@@ -1,0 +1,36 @@
+{
+  "name": "technosailor/php-twitter",
+  "description": "A PHP library for interacting with the Twitter API v2. This is not compatible with prior versions of the Twitter API.",
+  "keywords": [
+    "twitter",
+    "api",
+    "rest api"
+  ],
+  "homepage": "https://github.com/technosailor/php-Twitter",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Aaron Brazell",
+      "email": "aaron@technosailor.com",
+      "homepage":"https://www.aaronbrazell.work"
+    }
+  ],
+  "require": {
+    "php": ">=7.4",
+    "guzzlehttp/guzzle": "7.2.0"
+  },
+  "require-dev": {
+    "codeception/codeception": "4.1.11"
+  },
+  "autoload": {
+    "psr-4": {
+      "Technosailor\\PHP_Twitter\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Technosailor\\PHP_Twitter\\Test\\": "tests"
+    }
+  }
+}
